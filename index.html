@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script src="js-file-downloader.js"></script>
+
+</head>
+<body>
+
+ 
+    <script>
+       window.onload = function () {
+         // Then somewhere in your code
+         new jsFileDownloader({ url: 'mypdf.pdf' })
+          .then(function () {
+            // Called when download ended
+          })
+          .catch(function (error) {
+            // Called when an error occurred
+          });
+       }
+      </script>
+</body>
+
+</html>

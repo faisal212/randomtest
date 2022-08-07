@@ -1,0 +1,204 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "message": "Somebody knows this Singapore-Based AI startup that has developed a No-Code MLOps platform that allows companies and teams to build breakthrough AI capabilities?",
+      "following": false,
+      "parent_id": 0,
+      "like_true": 19,
+      "like_false": 1,
+      "created_at": "2022-01-01 T13:00:00Z",
+      "author": {
+        "name": "Carl Williams",
+        "icon": "icon url"
+      },
+      "room": {
+        "name": "Techonogy"
+      },
+      "categories": [
+        {
+          "id": 1,
+          "name": "Development"
+        },
+        {
+          "id": 2,
+          "name": "General"
+        }
+      ],
+      "media": [
+        {
+          "id": 1,
+          "type": "image",
+          "url": "https://dsadsa.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "message": "Yes! and there's this California-based AI startup that enables reliable and contactless autonomous shopping with AI-Powered computer vision technology",
+      "following": false,
+      "like_true": 19,
+      "like_false": 1,
+      "created_at": "2022-01-01 T13:00:00Z",
+      "parent_id": 1,
+      "author": {
+        "name": "Tobie Wong",
+        "icon": "icon url"
+      },
+      "media": [
+        {
+          "id": 1,
+          "type": "image",
+          "url": "https://dsadsa.png"
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "name": "New trends",
+      "description": "What’s the room about? What would you like to discuss here?",
+      "created_by": 1,
+      "members_count": 21000,
+      "room_type": {
+        "name": "public"
+      },
+      "categories": [
+        {
+          "id": 1,
+          "name": "Development"
+        },
+        {
+          "id": 2,
+          "name": "General"
+        }
+      ],
+      "thumbnail": {
+        "url": "https://thumbnail.url/image.png"
+      },
+      "admins": [
+        {
+          "id": 1,
+          "avatar": "https://avatar.url/avatar.png"
+        },
+        {
+          "id": 2,
+          "avatar": "https://avatar.url/avatar2.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Technolgy",
+      "description": "What’s the room about? What would you like to discuss here?",
+      "created_by": 1,
+      "members_count": 21000,
+      "room_type": {
+        "name": "public"
+      },
+      "categories": [
+        {
+          "id": 1,
+          "name": "Development"
+        },
+        {
+          "id": 2,
+          "name": "General"
+        }
+      ],
+      "thumbnail": {
+        "url": "https://thumbnail.url/image.png"
+      },
+      "admins": [
+        {
+          "id": 1,
+          "avatar": "https://avatar.url/avatar.png"
+        },
+        {
+          "id": 2,
+          "avatar": "https://avatar.url/avatar2.png"
+        }
+      ]
+    },
+    {
+      "name": "Gym",
+      "description": "Gym is good for health",
+      "room_type_id": 1,
+      "thumbnail_id": 1,
+      "categories": [
+        {
+          "id": 6,
+          "name": "Mental health"
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "rules": [
+    {
+      "title": "Language Rule",
+      "description": "only can speak with English",
+      "room_type_id": 1,
+      "room_id": 1,
+      "is_active": false
+    },
+    {
+      "title": "Be kind and treat everyone with respect.",
+      "description": "Enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.",
+      "room_type_id": 1,
+      "room_id": 1,
+      "is_active": false
+    }
+  ],
+  "post-likes": [
+    {
+      "message_id": 1,
+      "like": true
+    }
+  ],
+  "post-followers": [
+    {
+      "post_id": 1,
+      "active": true
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Development"
+    },
+    {
+      "id": 2,
+      "name": "General"
+    },
+    {
+      "id": 3,
+      "name": "Grooming"
+    },
+    {
+      "id": 4,
+      "name": "Fashion & style"
+    },
+    {
+      "id": 5,
+      "name": "Lifestyle"
+    },
+    {
+      "id": 6,
+      "name": "Mental health"
+    },
+    {
+      "id": 7,
+      "name": "Sport"
+    },
+    {
+      "id": 8,
+      "name": "Technology"
+    },
+    {
+      "id": 9,
+      "name": "travel"
+    }
+  ]
+}
